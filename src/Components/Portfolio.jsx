@@ -1,46 +1,19 @@
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */
-
 import React from "react";
-
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-import image from "../images/design-desk.jpeg";
+import image from "../images/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg";
 
 const imageAltText = "desktop with books and laptop";
-
-/**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "ReVinyl",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Gives users the opportunity to view records available for buying or trading, as well as allowing them to add records to a wishlist for purchase at a later time",
+    url: "https://revinyl-frontend.herokuapp.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "TailGreat",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Allows users the to host a tailgate or join an existing tailgate. Hosts have a separate login from users and have different functionality from users as well.",
+    url: "https://dashboard.heroku.com/apps/tailgreat-app",
   },
   {
     title: "My Resume Site",
@@ -60,7 +33,9 @@ const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
       <h2>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div
+        style={{ display: "flex", flexDirection: "row", paddingTop: "3rem", paddingLeft: "1em" }}
+      >
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
