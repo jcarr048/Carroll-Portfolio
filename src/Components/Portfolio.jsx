@@ -17,15 +17,13 @@ const projectList = [
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://docs.google.com/document/d/1_qTiMmZJTMcj-Pd-ucejWEUErp5XJkIGXZ2nMQP2oho/edit?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Connect Four Project",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Simple Connect Four game created after a week and a half experience with JavaScript.",
+    url: "https://carroll-connect-four-production.up.railway.app/",
   },
 ];
 
