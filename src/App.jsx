@@ -27,8 +27,8 @@ const siteProps = {
   name: "Jeff Carroll",
   title: "Full-Stack Software Developer",
   email: "jcarr048@gmail.com",
-  gitHub: "https://github.com/jcarr048",
-  linkedIn: "https://www.linkedin.com/in/jeff-carroll-dev/"
+  gitHub: "jcarr048",
+  linkedIn: "jeff-carroll-dev/",
 };
 
 const primaryColor = "#4E567E";
