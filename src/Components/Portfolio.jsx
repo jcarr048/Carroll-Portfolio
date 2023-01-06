@@ -4,10 +4,8 @@ import image from "../images/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg";
 const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
-    title: "ReVinyl",
-    description:
-      "Gives users the opportunity to view records available for buying or trading, as well as allowing them to add records to a wishlist for purchase at a later time",
-    url: "https://revinyl-frontend.herokuapp.com/",
+    title: "My Resume",
+    url: "https://docs.google.com/document/d/1_qTiMmZJTMcj-Pd-ucejWEUErp5XJkIGXZ2nMQP2oho/edit?usp=sharing",
   },
   {
     title: "TailGreat",
@@ -16,8 +14,10 @@ const projectList = [
     url: "https://dashboard.heroku.com/apps/tailgreat-app",
   },
   {
-    title: "My Resume",
-    url: "https://docs.google.com/document/d/1_qTiMmZJTMcj-Pd-ucejWEUErp5XJkIGXZ2nMQP2oho/edit?usp=sharing",
+    title: "ReVinyl",
+    description:
+      "Gives users the opportunity to view records available for buying or trading, as well as allowing them to add records to a wishlist for purchase at a later time",
+    url: "https://revinyl-frontend.herokuapp.com/",
   },
   {
     title: "Connect Four Project",
