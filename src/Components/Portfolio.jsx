@@ -16,7 +16,7 @@ const projectList = [
     url: "https://dashboard.heroku.com/apps/tailgreat-app",
   },
   {
-    title: "My Resume Site",
+    title: "My Resume",
     url: "https://docs.google.com/document/d/1_qTiMmZJTMcj-Pd-ucejWEUErp5XJkIGXZ2nMQP2oho/edit?usp=sharing",
   },
   {
