@@ -25,6 +25,12 @@ const projectList = [
       "Simple Connect Four game created after a week and a half experience with JavaScript.",
     url: "https://carroll-connect-four-production.up.railway.app/",
   },
+  {
+    title: "Rock-N-Rollercoasters",
+    description:
+      "MERN stack app that allows users to view, delete, and add new rollercoasters to in an 80's theme park.",
+    url: "https://rock-n-rollercoasters.herokuapp.com/",
+  },
 ];
 
 const Portfolio = () => {
