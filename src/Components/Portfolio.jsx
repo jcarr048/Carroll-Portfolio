@@ -8,12 +8,6 @@ const projectList = [
     url: "https://docs.google.com/document/d/1_qTiMmZJTMcj-Pd-ucejWEUErp5XJkIGXZ2nMQP2oho/edit?usp=sharing",
   },
   {
-    title: "TailGreat",
-    description:
-      "Allows users the to host a tailgate or join an existing tailgate. Hosts have a separate login from users and have different functionality from users as well.",
-    url: "https://dashboard.heroku.com/apps/tailgreat-app",
-  },
-  {
     title: "ReVinyl",
     description:
       "Gives users the opportunity to view records available for buying or trading, as well as allowing them to add records to a wishlist for purchase at a later time",
